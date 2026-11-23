@@ -275,6 +275,7 @@ h2 {
   .section { grid-template-columns: 1fr; }
   .section-index { margin-top: 0; }
   .about-content { grid-template-columns: 1fr; gap: .75rem; }
+  .about-portrait { width: 100%; }
 }
 
 @media (prefers-reduced-motion: no-preference) {

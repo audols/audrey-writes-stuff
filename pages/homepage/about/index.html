@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /about/
+---
+{%- assign homepage = site.pages | where: "path", "index.html" | first -%}
+{{ homepage.content }}
